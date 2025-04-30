@@ -1,0 +1,91 @@
+body{
+background-image: url(images/background.jpg);
+font-family:"press start 2P";
+color: white;
+font-style: italic;
+font-weight: bold;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+overflow: hidden;
+}
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1{
+    color: greenyellow;
+    font-size: 70px;
+  }
+
+p{
+    
+    padding: 5px;
+    margin-left: 0px;
+   
+}
+.container img {
+  float:inline-start;
+  position: relative;
+  margin: 30px;
+  padding: 20px;
+  display: inline;
+  width: 200px;
+  height: auto;
+
+}
+
+.hover-text {
+  position: relative;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: none; /* Caché par défaut */
+}
+
+.container:hover .hover-text {
+  display: block; /* Affiche le texte au survol */
+}
+#allimg{
+position: relative;
+
+top: 0px;
+left: 10%;
+margin: 80px;
+
+
+}
+.container#gow{
+  position: relative;
+  top: 20px;
+}
+.container#zelda{
+  position: relative;
+  bottom: 80px;
+}
+header{
+
+margin: 150px;
+margin: top 10%;
+
+
+
+
+}
+.logo{
+  float: right;
+  margin-right: 10%;
+  
+  width: 300px;
+
+}
+#p1{
+  margin-left: 8%;
+}

@@ -1,0 +1,28 @@
+body{
+background-image: url(images/ZEL.jpg);
+font-family: 'Triforce', sans-serif;
+
+font-size: 1.5rem;
+
+
+}
+h1{
+color: #D4AF37;
+
+
+
+}
+.container{
+color: #EDEDED;
+
+
+}
+.video{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 70px;
+
+
+
+}
