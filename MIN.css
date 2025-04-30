@@ -1,0 +1,23 @@
+body{
+background-image: url(images/mincraft.avif);
+background-repeat: no-repeat;
+font-family: 'Minecraft', sans-serif;
+background-size: cover;
+font-size: 1.7rem;
+color: black;
+
+}
+header{
+    color: #FFD700;
+-webkit-text-stroke: 0.1px black;
+
+
+}
+.video{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}

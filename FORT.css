@@ -1,0 +1,26 @@
+
+body{ 
+    font-family: 'Luckiest Guy', cursive;
+    background-image: url(images/FORT.jpg);
+    background-repeat: no-repeat;
+    -webkit-text-stroke: 0.07px black;
+color: rgb(255, 255, 255);
+font-size: 1.7rem;
+margin-left: 40px;
+margin-top:0 px;
+}  
+h1{
+color: #c40000;
+font-size: 5rem;
+margin-left: 30px;
+margin-top: 20px;
+padding: 0;
+}
+.video{
+    margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
