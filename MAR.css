@@ -28,3 +28,38 @@ justify-content: center;
 
 
 }
+@media screen and (max-width: 768px) {
+  body {
+    margin: 10px !important;
+    font-size: 1.1rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+    margin: 15px 0 !important;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+  }
+
+  .container {
+    padding: 10px;
+    margin: 20px 0;
+    background: rgba(255,255,255,0.8);
+    border-radius: 10px;
+  }
+
+  .video video {
+    width: 100% !important;
+    height: auto;
+    max-width: 100%;
+    border: 3px solid #FF0000;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: left;
+    color: #000000;
+  }
+}
