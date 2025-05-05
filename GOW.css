@@ -30,3 +30,36 @@ align-items: center;
 justify-content: center;
 
 }
+@media screen and (max-width: 768px) {
+    body {
+      margin: 15px;
+      font-size: large;
+      overflow: auto;
+      background-size: cover;
+      -webkit-text-stroke: 0.2px #000000;
+    }
+  
+    header {
+      font-size: 1.5rem;
+      text-align: center;
+      margin: 20px 0;
+    }
+  
+    .container {
+      margin-top: 30px;
+      padding: 10px;
+      line-height: 1.5;
+    }
+  
+    .video video {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  
+    p {
+      font-size: 1rem;
+      text-align: justify;
+    }
+  }
+
